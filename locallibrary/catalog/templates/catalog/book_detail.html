@@ -4,15 +4,15 @@
 
 {% block content %}
     <h1>{{ book.title }}</h1>
-<p>Título: {{ book.title }}</p>
-<p>Autor: {{ book.author }}</p>
-<p>Resumen: {{ book.summary }}</p>
-<p>ISBN: {{ book.isbn }}</p>
+    <p>Título: {{ book.title }}</p>
+    <p>Autor: {{ book.author }}</p>
+    <p>Resumen: {{ book.summary }}</p>
+    <p>ISBN: {{ book.isbn }}</p>
 
-Ejemplares: {{ book.bookinstance_set.all.count }}
+    Ejemplares: {{ book.bookinstance_set.all.count }}
 
-{% for b in book.bookinstance_set.all %}
-    {{b.status}} &nbsp;
-{% endfor %}
+    {% for b in book.bookinstance_set.all %}
+        {{b.status}} &nbsp;
+    {% endfor %}
 
 {% endblock %}

@@ -35,3 +35,7 @@ urlpatterns = [
     
 ] +static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
+
+urlpatterns += [ # App para la tarea "bibliotecas"
+     path('bibliotecas/', include('bibliotecas.urls')),
+]

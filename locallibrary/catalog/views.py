@@ -97,9 +97,8 @@ class BookDetailView(DetailView):
     '''Vista genérica para el detalle de un libro'''
     model = Book
 
+
 # Búsqueda
-
-
 class SearchResultsListView(ListView):
     model = Book
 
