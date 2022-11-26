@@ -1,6 +1,6 @@
 [submodule "locallibrary/bibliotecas"]
 	path = locallibrary/bibliotecas
-	url = https://github.com/lmorillas/template-bibliotecas.git
+	url = https://github.com/DWES-LE/aplicacion-bibliotecas-RubHL.git
 [submodule "locallibrary/mundial"]
 	path = locallibrary/mundial
 	url = https://github.com/lmorillas/mundial-futbol-app.git
